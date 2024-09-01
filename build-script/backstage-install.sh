@@ -14,7 +14,7 @@ BACKSTAGE_CREATE_APP_VERSION="0.5.17"
 # 
 # Set installMode to "from-source" to build/install OPA plugins from source
 # or set installMode to "npm" to install the latest published OPA NPM packages.
-installMode="npm"
+installMode="from-source"
 NC='\033[0m' # No Color
 RED='\033[1;31m'
 

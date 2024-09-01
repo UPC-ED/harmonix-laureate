@@ -32,6 +32,7 @@ install: verify-env
 	@echo -e "\n\n" 2>&1 | tee -a $(LOGFILE)
 	@echo -e "Installation complete and the application is starting!" 2>&1 | tee -a $(LOGFILE)
 	@echo -e "Visit the application at https://${R53_HOSTED_ZONE_NAME}" 2>&1 | tee -a $(LOGFILE)
+	
 
 verify-env:
 ifeq (,$(wildcard ./config/.env))
